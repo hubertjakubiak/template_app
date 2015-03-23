@@ -18,13 +18,10 @@
 # Ignore Spring files.
 /spring/*.pid
 
-# Ignore all cloud9 and hidden files files
+# Ignore all cloud9 hidden files
 .c9/
 
-# Ignore all other unneeded files
-
 # Ignore other undeeded files.
-database.yml
 doc/
 *.swp
 *~
