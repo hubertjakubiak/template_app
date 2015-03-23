@@ -1,0 +1,41 @@
+<header class="navbar navbar-fixed-top navbar-default">
+  <div class="container">
+    <%= link_to "Template App", "", id: "logo" %>
+    <ul class="nav_item">
+      <li class="dropdown">
+        <%= link_to '#', class: "btn btn-default dropdown-toggle", "data-toggle" => "dropdown" do %>
+          Link 1 <b class="caret"></b>
+        <% end %>
+        <ul class='dropdown-menu'>
+          <li><%= link_to "link 1", "" %></li>
+          <li><%= link_to "link 2", "" %></li>
+          <li><%= link_to "link 3", "" %></li>
+          <li class='divider'></li>
+          <li>
+            <%= link_to "" do %>
+              New Link
+            <% end %>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    
+    <div class="nav_item">
+      <%= link_to "New Item", "", class: "btn btn-default" %>
+    </div>
+    <ul class="nav_item">
+      <li class="dropdown">
+        <%= link_to '#', class: "btn btn-default dropdown-toggle", "data-toggle" => "dropdown" do %>
+          User name <b class="caret"></b>
+        <% end %>
+        <ul class='dropdown-menu'>
+          <li><%= link_to "View Profile", "" %></li>
+          <li><%= link_to "Edit Profile", "" %></li>
+          <li class="divider"></li>
+          <li><%= link_to "Logout", "" %></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</header>
