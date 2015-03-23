@@ -1,24 +1,15 @@
+This is a template application for starting a Ruby on Rails project
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Some items included:
+- Bootstrap-sass
+- A default pages controller with home action which is root
+- Gem's grouped by dev and prod, ready for deploy to heroku
+- Navigation, footer partials
+- Messages partial to enable flash display
+- Gitignore file updated to exclude cloud env specific files along with db files
 
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://railsudemycourse-udemyrailscourse.c9.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+To use:
+- Clone the repo to your local dev env
+- Set origin to your own repo
+- Bundle update
+- Bundle install --without production (to avoid installing prod gems locally)
